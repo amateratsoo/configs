@@ -1,0 +1,320 @@
+{
+  "editor.acceptSuggestionOnCommitCharacter": true,
+  "editor.quickSuggestions": {
+    "comments": "on",
+    "other": "on",
+    "strings": true
+  },
+  "editor.minimap.autohide": true,
+  "html.autoClosingTags": true,
+  "html.format.enable": true,
+  "html.validate.scripts": true,
+  "html.suggest.html5": true,
+  "html.format.extraLiners": "",
+  "workbench.iconTheme": "vscode-jetbrains-icon-theme-2023-dark",
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "editor.tabSize": 2,
+  "editor.fontFamily": "JetBrainsMono Nerd Font",
+  "editor.fontLigatures": true,
+  "editor.rulers": [],
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "git.autofetch": true,
+  "workbench.colorCustomizations": {
+    "[Community Material Theme Ocean High Contrast]": {
+      "tab.activeBorderTop": "#6A5ACD",
+      "tab.activeBorder": "#0F111A",
+      "tab.inactiveBackground": "#151724",
+      "tab.border": "#151724",
+      //"statusBar.background": "#342d65",
+      //"statusBar.border": "#342d65",
+      "statusBar.foreground": "#9e9b9b",
+      //"titleBar.activeBackground": "#0f1018",
+      "titleBar.border": "#090B10",
+      "editorGroupHeader.tabsBackground": "#151724",
+      "panelTitle.activeBorder": "#6A5ACD",
+      "panel.border": "#6A5ACD",
+      //"editor.lineHighlightBorder": "#363434c7",
+      //"editor.lineHighlightBackground": "#0F111A",
+      //"editorGroup.border": "#5a565651",
+      "settings.sashBorder": "#0F111A",
+      "settings.headerBorder": "#0F111A",
+      "settings.focusedRowBorder": "#151724",
+      "settings.focusedRowBackground": "#0d0d16",
+      "settings.headerForeground": "#FFD384",
+      "focusBorder": "#141414",
+      "list.inactiveSelectionBackground": "#36343451",
+      "list.activeSelectionBackground": "#36343451",
+      "list.focusOutline": "#5a565651",
+      "list.hoverBackground": "#1b1b1b6b",
+      "editor.foreground": "#d9d9d9",
+      //"editor.background": "#0d0d16",
+      "settings.modifiedItemIndicator": "#905E96",
+      "activityBarBadge.background": "#FFD384"
+    },
+    "[Twilight Pro]": {
+      "quickInputList.focusForeground": "#FFD384",
+      "focusBorder": "#14141400",
+      "tab.activeBorder": "#363434c7",
+      "editorGroupHeader.tabsBorder": "#141414",
+      "tab.inactiveBackground": "#141414",
+      "tab.activeBackground": "#141414",
+      "tab.border": "#141414",
+      "editorGutter.background": "#141414",
+      //"statusBar.background": "#342d65",
+      //"statusBar.border": "#342d65",
+      "statusBar.foreground": "#9e9b9b",
+      "titleBar.activeBackground": "#141414",
+      "titleBar.border": "#141414",
+      "editorGroupHeader.tabsBackground": "#141414",
+      "panelTitle.activeBorder": "#363434c7",
+      "panel.border": "#141414",
+      "sideBar.border": "#141414",
+      "gitDecoration.untrackedResourceForeground": "#7ca594",
+      "sideBar.background": "#141414",
+      //"editor.lineHighlightBorder": "#363434c7",
+      //"editor.lineHighlightBackground": "#0F111A",
+      //"editorGroup.border": "#5a565651",
+      //"settings.sashBorder": "#0F111A",
+      //"settings.headerBorder": "#0F111A",
+      //"settings.focusedRowBorder": "#151724",
+      //"settings.focusedRowBackground": "#0d0d16",
+      //"settings.headerForeground": "#FFD384",
+      "list.inactiveSelectionBackground": "#141414",
+      "list.activeSelectionBackground": "#141414",
+      "list.focusOutline": "#141414",
+      "list.hoverBackground": "#1b1b1b6b",
+      "list.errorForeground": "#ff9090",
+      "sideBarSectionHeader.background": "#141414",
+      //"editor.foreground": "#d9d9d9",
+      //"editor.background": "#141414",
+      //"settings.modifiedItemIndicator": "#905E96",
+      // "activityBarBadge.background": "#FFD384",
+      "terminal.background": "#141414",
+      "terminal.foreground": "#A7A7A7",
+      "terminalCursor.background": "#A7A7A7",
+      "terminalCursor.foreground": "#A7A7A7",
+      "terminal.ansiBlack": "#1E1E1E",
+      "terminal.ansiBlue": "#7587A6",
+      "terminal.ansiBrightBlack": "#5F5A60",
+      "terminal.ansiBrightBlue": "#7587A6",
+      "terminal.ansiBrightCyan": "#AFC4DB",
+      "terminal.ansiBrightGreen": "#8F9D6A",
+      "terminal.ansiBrightMagenta": "#9B859D",
+      "terminal.ansiBrightRed": "#CF6A4C",
+      "terminal.ansiBrightWhite": "#FFFFFF",
+      "terminal.ansiBrightYellow": "#F9EE98",
+      "terminal.ansiCyan": "#AFC4DB",
+      "terminal.ansiGreen": "#8F9D6A",
+      "terminal.ansiMagenta": "#9B859D",
+      "terminal.ansiRed": "#CF6A4C",
+      "terminal.ansiWhite": "#A7A7A7",
+      "terminal.ansiYellow": "#F9EE98"
+    }
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  // "window.title": "${dirty}${activeEditorShort}${separator}${rootName}",
+  "window.title": "${activeEditorShort}",
+  "terminal.integrated.fontWeightBold": "bold",
+  "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
+  "editor.fontWeight": "normal",
+  "css.lint.hexColorLength": "warning",
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": [
+          "string.quoted.single.js",
+          "string.quoted.single.ts",
+          "string.quoted.single.jsx",
+          "string.quoted.single.tsx"
+        ],
+        "settings": {
+          "foreground": "#FFD384"
+        }
+      },
+      {
+        "scope": [
+          "keyword.control.import.js",
+          "keyword.control.import.ts",
+          "keyword.control.import.jsx",
+          "keyword.control.import.tsx"
+        ],
+        "settings": {
+          "fontStyle": "",
+          "foreground": "#C792EA"
+        }
+      },
+      {
+        "scope": [
+          "keyword.control.export.js",
+          "keyword.control.export.ts",
+          "keyword.control.export.jsx",
+          "keyword.control.export.tsx"
+        ],
+        "settings": {
+          "fontStyle": "",
+          "foreground": "#C792EA"
+        }
+      },
+      {
+        "scope": [
+          "keyword.control.default.js",
+          "keyword.control.default.ts",
+          "keyword.control.default.jsx",
+          "keyword.control.default.tsx"
+        ],
+        "settings": {
+          "fontStyle": "",
+          "foreground": "#82AAFF"
+        }
+      },
+      {
+        "scope": [
+          "keyword.control.switch.js",
+          "keyword.control.switch.ts",
+          "keyword.control.switch.jsx",
+          "keyword.control.switch.tsx"
+        ],
+        "settings": {
+          "fontStyle": "",
+          "foreground": "#82AAFF"
+        }
+      },
+      {
+        "scope": [
+          "keyword.control.from.js",
+          "keyword.control.from.ts",
+          "keyword.control.from.jsx",
+          "keyword.control.from.tsx"
+        ],
+        "settings": {
+          "fontStyle": "",
+          "foreground": "#C792EA"
+        }
+      },
+      {
+        "scope": [
+          "keyword.control.flow.js",
+          "keyword.control.flow.ts",
+          "keyword.control.flow.jsx",
+          "keyword.control.flow.tsx"
+        ],
+        "settings": {
+          "fontStyle": "bold",
+          "foreground": "#82AAFF"
+        }
+      },
+      {
+        "scope": [
+          "keyword.control.conditional.js",
+          "keyword.control.conditional.ts",
+          "keyword.control.conditional.jsx",
+          "keyword.control.conditional.tsx"
+        ],
+        "settings": {
+          "foreground": "#C792EA",
+          "fontStyle": ""
+        }
+      },
+      {
+        "scope": [
+          "keyword.control.loop.js",
+          "keyword.control.loop.ts",
+          "keyword.control.loop.jsx",
+          "keyword.control.loop.tsx"
+        ],
+        "settings": {
+          "foreground": "#C792EA",
+          "fontStyle": ""
+        }
+      },
+      {
+        "scope": [
+          "keyword.operator.new.js",
+          "keyword.operator.new.ts",
+          "keyword.control.new.jsx",
+          "keyword.control.new.tsx"
+        ],
+        "settings": {
+          //"fontStyle": "bold"
+        }
+      },
+      {
+        "scope": [
+          "keyword.control.trycatch.js",
+          "keyword.control.trycatch.ts",
+          "keyword.control.trycatch.jsx",
+          "keyword.control.trycatch.tsx"
+        ],
+        "settings": {
+          "fontStyle": "",
+          "foreground": "#C792EA"
+        }
+      },
+      {
+        "scope": [
+          "constant.numeric.decimal.ts",
+          "constant.numeric.decimal.js"
+        ],
+        "settings": {
+          //"fontStyle": "bold"
+        }
+      }
+    ]
+  },
+  "workbench.startupEditor": "none",
+  "editor.renderLineHighlight": "gutter",
+  "[prisma]": {
+    "editor.formatOnSave": true
+  },
+  "tailwindCSS.includeLanguages": {
+    "html": "html",
+    "javascript": "javascript",
+    "css": "css"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.fontSize": 14,
+  "todomd.webview.showRecurringUpcoming": false,
+  "todomd.webview.completedStrikeThrough": true,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "prettier.arrowParens": "avoid",
+  "prettier.jsxSingleQuote": true,
+  "prettier.semi": false,
+  "prettier.trailingComma": "none",
+  "prettier.singleQuote": true,
+  "prettier.printWidth": 80,
+  "editor.formatOnSave": true,
+  "hediet.vscode-drawio.resizeImages": null,
+  "[latex]": {
+    "editor.defaultFormatter": "nickfode.latex-formatter"
+  },
+  "workbench.colorTheme": "Twilight Pro",
+  "window.zoomLevel": 1,
+  "editor.stickyScroll.enabled": false,
+  "prisma.showPrismaDataPlatformNotification": false,
+  "workbench.editor.showTabs": "multiple",
+  "window.menuBarVisibility": "compact",
+  "workbench.layoutControl.enabled": false,
+  "workbench.editor.editorActionsLocation": "hidden",
+  "workbench.statusBar.visible": true,
+  "workbench.activityBar.location": "top",
+  "window.commandCenter": false
+}
