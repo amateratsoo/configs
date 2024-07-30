@@ -62,7 +62,19 @@ Function Screenfetch($distro) {
             Write-Host $Content;
         }
         else {
-            Write-Host $SystemInfoCollection[$line];            
+            Write-Host $SystemInfoCollection[$line];
+        }
+
+        if ($line -eq ($AsciiArt.Count - 1)) {
+            $Japanese = @'
+            オレに敵なんかいない
+'@;            
+            $Quote = @'
+            No enemies. Invincible under the sun
+'@;
+        
+            Write-Host $Japanese.PadLeft(70, ' ') -f Red;
+            Write-Host $Quote.PadLeft(100, ' ') -f DarkYellow;
         }
     }
 }
