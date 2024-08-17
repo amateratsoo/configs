@@ -4,11 +4,11 @@
 # Important: In order to work with any type of ascii art
 # the file need to be encoded in utf-8 with BOM
 
-Function Screenfetch($distro) {
+Function Screenfetch($distro, $quote) {
     $AsciiArt = "";
 
     if (-not $distro) {
-        $AsciiArt = . Get-Vagabond;
+        $AsciiArt = . Get-SmallKnight;
     }
 
     if (([string]::Compare($distro, "mac", $true) -eq 0) -or 
@@ -32,20 +32,31 @@ Function Screenfetch($distro) {
     elseif (([string]::Compare($distro, "win", $true) -eq 0) -or ([string]::Compare($distro, "windows", $true) -eq 0)) {
         $AsciiArt = . Get-WindowsArt;
     }
+    elseif ([string]::Compare($distro, "knight", $true) -eq 0) {
+        $AsciiArt = . Get-Knight;
+    }
+    elseif ([string]::Compare($distro, "quirrel", $true) -eq 0) {
+        $AsciiArt = . Get-Quirrel;
+    }
     else {
-        $AsciiArt = . Get-Vagabond;
+        $AsciiArt = . Get-SmallKnight;
     }
 
     $SystemInfoCollection = . Get-SystemSpecifications;
     $LineToTitleMappings = . Get-LineToTitleMappings;
 
-    if ($SystemInfoCollection.Count -gt $AsciiArt.Count) { 
-        Write-Error "System Specs occupies more lines than the Ascii Art resource selected"
-    }
+
+    # uncomment the code below to show an error message whenever the system specs occupies
+    # more space than the ascii art 👇
+
+    # if ($SystemInfoCollection.Count -gt $AsciiArt.Count) { 
+    #     Write-Error "System Specs occupies more lines than the Ascii Art resource selected"
+    # }
 
     for ($line = 0; $line -lt $AsciiArt.Count; $line++) {
         Write-Host $AsciiArt[$line] -f Cyan -NoNewline;
         Write-Host $LineToTitleMappings[$line] -f Red -NoNewline;
+
 
         if ($line -eq 0) {
             Write-Host $SystemInfoCollection[$line] -f Red;
@@ -65,7 +76,8 @@ Function Screenfetch($distro) {
             Write-Host $SystemInfoCollection[$line];
         }
 
-        if ($line -eq ($AsciiArt.Count - 1)) {
+
+        if ($line -eq ($AsciiArt.Count - 1) -and $quote) {
             $Japanese = @'
             オレに敵なんかいない
 '@;            

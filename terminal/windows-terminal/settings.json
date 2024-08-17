@@ -1,419 +1,322 @@
 {
-  "$help": "https://aka.ms/terminal-documentation",
-  "$schema": "https://aka.ms/terminal-profiles-schema",
-  "actions": [
-    {
-      "command": "find",
-      "keys": "ctrl+shift+f"
-    },
-    {
-      "command": {
-        "action": "splitPane",
-        "split": "auto",
-        "splitMode": "duplicate"
-      },
-      "keys": "alt+shift+d"
-    },
-    {
-      "command": "paste",
-      "keys": "ctrl+v"
-    },
-    {
-      "command": {
-        "action": "copy",
-        "singleLine": false
-      },
-      "keys": "ctrl+c"
-    }
-  ],
-  "centerOnLaunch": true,
-  "copyFormatting": "none",
-  "copyOnSelect": false,
-  "defaultProfile": "{66850efa-12c7-4e12-b0fb-d3cb99d4d629}",
-  "initialCols": 68,
-  "initialRows": 22,
-  "newTabMenu": [
-    {
-      "type": "remainingProfiles"
-    }
-  ],
-  "profiles": {
-    "defaults": {
-      "colorScheme": "Twilight",
-      "font": {
-        "face": "JetBrainsMono Nerd Font",
-        "size": 14.0,
-        "weight": "bold"
-      },
-      "opacity": 81,
-      "useAcrylic": true
-    },
-    "list": [
-      {
-        "colorScheme": "Twilight",
-        "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe -nologo",
-        "font": {
-          "cellHeight": "1.2"
-        },
-        "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
-        "hidden": false,
-        "name": "Windows PowerShell",
-        "opacity": 73,
-        "useAcrylic": true
-      },
-      {
-        "commandline": "%SystemRoot%\\System32\\cmd.exe",
-        "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
-        "hidden": false,
-        "name": "Prompt de comando"
-      },
-      {
-        "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
-        "hidden": false,
-        "name": "Azure Cloud Shell",
-        "source": "Windows.Terminal.Azure"
-      },
-      {
-        "guid": "{2b446157-5112-58c4-89f3-a1b8901d4930}",
-        "hidden": false,
-        "name": "Developer Command Prompt for VS 2019",
-        "source": "Windows.Terminal.VisualStudio"
-      },
-      {
-        "guid": "{0b6c7632-7169-538a-a025-df8b71f99563}",
-        "hidden": false,
-        "name": "Developer PowerShell for VS 2019",
-        "source": "Windows.Terminal.VisualStudio"
-      },
-      {
-        "adjustIndistinguishableColors": "never",
-        "altGrAliasing": true,
-        "closeOnExit": "automatic",
-        "colorScheme": "Twilight",
-        "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe -nologo",
-        "cursorShape": "bar",
-        "elevate": false,
-        "experimental.retroTerminalEffect": false,
-        "font": {
-          "cellHeight": "1.2",
-          "face": "JetBrainsMono Nerd Font"
-        },
-        "guid": "{66850efa-12c7-4e12-b0fb-d3cb99d4d629}",
-        "hidden": false,
-        "historySize": 9001,
-        "icon": "ms-appx:///ProfileIcons/{61c54bbd-c2c6-5271-96e7-009a87ff44bf}.png",
-        "name": "andromeda",
-        "opacity": 64,
-        "padding": "8",
-        "snapOnInput": true,
-        "startingDirectory": "C:\\Users\\ASUS\\Documents\\andromeda",
-        "useAcrylic": true
-      }
-    ]
+  "editor.acceptSuggestionOnCommitCharacter": true,
+  "editor.quickSuggestions": {
+    "comments": "on",
+    "other": "on",
+    "strings": true
   },
-  "schemes": [
-    {
-      "background": "#1C0C28",
-      "black": "#0A4C62",
-      "blue": "#90A5BD",
-      "brightBlack": "#201637",
-      "brightBlue": "#39173D",
-      "brightCyan": "#5E6071",
-      "brightGreen": "#0A6C7E",
-      "brightPurple": "#BC94B7",
-      "brightRed": "#C87272",
-      "brightWhite": "#0A6C7E",
-      "brightYellow": "#7A3188",
-      "cursorColor": "#FFFFFF",
-      "cyan": "#7E83CC",
-      "foreground": "#BABAB9",
-      "green": "#5CB1B3",
-      "name": "BlueBerryPie",
-      "purple": "#9D54A7",
-      "red": "#99246E",
-      "selectionBackground": "#FFFFFF",
-      "white": "#F0E8D6",
-      "yellow": "#EAB9A8"
+  "editor.minimap.autohide": true,
+  "html.autoClosingTags": true,
+  "html.format.enable": true,
+  "html.validate.scripts": true,
+  "html.suggest.html5": true,
+  "html.format.extraLiners": "",
+  "workbench.iconTheme": "vscode-jetbrains-icon-theme-2023-dark",
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features",
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "editor.tabSize": 2,
+  "editor.fontFamily": "JetBrainsMono Nerd Font",
+  "editor.fontLigatures": true,
+  "editor.rulers": [],
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "git.autofetch": true,
+  "workbench.colorCustomizations": {
+    "[Community Material Theme Ocean High Contrast]": {
+      "tab.activeBorderTop": "#6A5ACD",
+      "tab.activeBorder": "#0F111A",
+      "tab.inactiveBackground": "#151724",
+      "tab.border": "#151724",
+      //"statusBar.background": "#342d65",
+      //"statusBar.border": "#342d65",
+      "statusBar.foreground": "#9e9b9b",
+      //"titleBar.activeBackground": "#0f1018",
+      "titleBar.border": "#090B10",
+      "editorGroupHeader.tabsBackground": "#151724",
+      "panelTitle.activeBorder": "#6A5ACD",
+      "panel.border": "#6A5ACD",
+      //"editor.lineHighlightBorder": "#363434c7",
+      //"editor.lineHighlightBackground": "#0F111A",
+      //"editorGroup.border": "#5a565651",
+      "settings.sashBorder": "#0F111A",
+      "settings.headerBorder": "#0F111A",
+      "settings.focusedRowBorder": "#151724",
+      "settings.focusedRowBackground": "#0d0d16",
+      "settings.headerForeground": "#FFD384",
+      "focusBorder": "#141414",
+      "list.inactiveSelectionBackground": "#36343451",
+      "list.activeSelectionBackground": "#36343451",
+      "list.focusOutline": "#5a565651",
+      "list.hoverBackground": "#1b1b1b6b",
+      "editor.foreground": "#d9d9d9",
+      //"editor.background": "#0d0d16",
+      "settings.modifiedItemIndicator": "#905E96",
+      "activityBarBadge.background": "#FFD384",
     },
-    {
-      "background": "#0C0C0C",
-      "black": "#0C0C0C",
-      "blue": "#0037DA",
-      "brightBlack": "#767676",
-      "brightBlue": "#3B78FF",
-      "brightCyan": "#61D6D6",
-      "brightGreen": "#16C60C",
-      "brightPurple": "#B4009E",
-      "brightRed": "#E74856",
-      "brightWhite": "#F2F2F2",
-      "brightYellow": "#F9F1A5",
-      "cursorColor": "#FFFFFF",
-      "cyan": "#3A96DD",
-      "foreground": "#CCCCCC",
-      "green": "#13A10E",
-      "name": "Campbell",
-      "purple": "#881798",
-      "red": "#C50F1F",
-      "selectionBackground": "#FFFFFF",
-      "white": "#CCCCCC",
-      "yellow": "#C19C00"
-    },
-    {
-      "background": "#012456",
-      "black": "#0C0C0C",
-      "blue": "#0037DA",
-      "brightBlack": "#767676",
-      "brightBlue": "#3B78FF",
-      "brightCyan": "#61D6D6",
-      "brightGreen": "#16C60C",
-      "brightPurple": "#B4009E",
-      "brightRed": "#E74856",
-      "brightWhite": "#F2F2F2",
-      "brightYellow": "#F9F1A5",
-      "cursorColor": "#FFFFFF",
-      "cyan": "#3A96DD",
-      "foreground": "#CCCCCC",
-      "green": "#13A10E",
-      "name": "Campbell Powershell",
-      "purple": "#881798",
-      "red": "#C50F1F",
-      "selectionBackground": "#FFFFFF",
-      "white": "#CCCCCC",
-      "yellow": "#C19C00"
-    },
-    {
-      "background": "#0F111A",
-      "black": "#546E7A",
-      "blue": "#82AAFF",
-      "brightBlack": "#546E7A",
-      "brightBlue": "#82AAFF",
-      "brightCyan": "#89DDFF",
-      "brightGreen": "#C3E88D",
-      "brightPurple": "#C792EA",
-      "brightRed": "#FF5370",
-      "brightWhite": "#FFFFFF",
-      "brightYellow": "#FFCB6B",
-      "cursorColor": "#FFFFFF",
-      "cyan": "#89DDFF",
-      "foreground": "#8F93A2",
-      "green": "#C3E88D",
-      "name": "MaterialOcean",
-      "purple": "#C792EA",
-      "red": "#FF5370",
-      "selectionBackground": "#FFFFFF",
-      "white": "#FFFFFF",
-      "yellow": "#FFCB6B"
-    },
-    {
-      "background": "#282C34",
-      "black": "#282C34",
-      "blue": "#61AFEF",
-      "brightBlack": "#5A6374",
-      "brightBlue": "#61AFEF",
-      "brightCyan": "#56B6C2",
-      "brightGreen": "#98C379",
-      "brightPurple": "#C678DD",
-      "brightRed": "#E06C75",
-      "brightWhite": "#DCDFE4",
-      "brightYellow": "#E5C07B",
-      "cursorColor": "#FFFFFF",
-      "cyan": "#56B6C2",
-      "foreground": "#DCDFE4",
-      "green": "#98C379",
-      "name": "One Half Dark",
-      "purple": "#C678DD",
-      "red": "#E06C75",
-      "selectionBackground": "#FFFFFF",
-      "white": "#DCDFE4",
-      "yellow": "#E5C07B"
-    },
-    {
-      "background": "#FAFAFA",
-      "black": "#383A42",
-      "blue": "#0184BC",
-      "brightBlack": "#4F525D",
-      "brightBlue": "#61AFEF",
-      "brightCyan": "#56B5C1",
-      "brightGreen": "#98C379",
-      "brightPurple": "#C577DD",
-      "brightRed": "#DF6C75",
-      "brightWhite": "#FFFFFF",
-      "brightYellow": "#E4C07A",
-      "cursorColor": "#4F525D",
-      "cyan": "#0997B3",
-      "foreground": "#383A42",
-      "green": "#50A14F",
-      "name": "One Half Light",
-      "purple": "#A626A4",
-      "red": "#E45649",
-      "selectionBackground": "#FFFFFF",
-      "white": "#FAFAFA",
-      "yellow": "#C18301"
-    },
-    {
-      "background": "#002B36",
-      "black": "#002B36",
-      "blue": "#268BD2",
-      "brightBlack": "#073642",
-      "brightBlue": "#839496",
-      "brightCyan": "#93A1A1",
-      "brightGreen": "#586E75",
-      "brightPurple": "#6C71C4",
-      "brightRed": "#CB4B16",
-      "brightWhite": "#FDF6E3",
-      "brightYellow": "#657B83",
-      "cursorColor": "#FFFFFF",
-      "cyan": "#2AA198",
-      "foreground": "#839496",
-      "green": "#859900",
-      "name": "Solarized Dark",
-      "purple": "#D33682",
-      "red": "#DC322F",
-      "selectionBackground": "#FFFFFF",
-      "white": "#EEE8D5",
-      "yellow": "#B58900"
-    },
-    {
-      "background": "#FDF6E3",
-      "black": "#002B36",
-      "blue": "#268BD2",
-      "brightBlack": "#073642",
-      "brightBlue": "#839496",
-      "brightCyan": "#93A1A1",
-      "brightGreen": "#586E75",
-      "brightPurple": "#6C71C4",
-      "brightRed": "#CB4B16",
-      "brightWhite": "#FDF6E3",
-      "brightYellow": "#657B83",
-      "cursorColor": "#002B36",
-      "cyan": "#2AA198",
-      "foreground": "#657B83",
-      "green": "#859900",
-      "name": "Solarized Light",
-      "purple": "#D33682",
-      "red": "#DC322F",
-      "selectionBackground": "#FFFFFF",
-      "white": "#EEE8D5",
-      "yellow": "#B58900"
-    },
-    {
-      "background": "#000000",
-      "black": "#000000",
-      "blue": "#3465A4",
-      "brightBlack": "#555753",
-      "brightBlue": "#729FCF",
-      "brightCyan": "#34E2E2",
-      "brightGreen": "#8AE234",
-      "brightPurple": "#AD7FA8",
-      "brightRed": "#EF2929",
-      "brightWhite": "#EEEEEC",
-      "brightYellow": "#FCE94F",
-      "cursorColor": "#FFFFFF",
-      "cyan": "#06989A",
-      "foreground": "#D3D7CF",
-      "green": "#4E9A06",
-      "name": "Tango Dark",
-      "purple": "#75507B",
-      "red": "#CC0000",
-      "selectionBackground": "#FFFFFF",
-      "white": "#D3D7CF",
-      "yellow": "#C4A000"
-    },
-    {
-      "background": "#FFFFFF",
-      "black": "#000000",
-      "blue": "#3465A4",
-      "brightBlack": "#555753",
-      "brightBlue": "#729FCF",
-      "brightCyan": "#34E2E2",
-      "brightGreen": "#8AE234",
-      "brightPurple": "#AD7FA8",
-      "brightRed": "#EF2929",
-      "brightWhite": "#EEEEEC",
-      "brightYellow": "#FCE94F",
-      "cursorColor": "#000000",
-      "cyan": "#06989A",
-      "foreground": "#555753",
-      "green": "#4E9A06",
-      "name": "Tango Light",
-      "purple": "#75507B",
-      "red": "#CC0000",
-      "selectionBackground": "#FFFFFF",
-      "white": "#D3D7CF",
-      "yellow": "#C4A000"
-    },
-    {
-      "background": "#141414",
-      "black": "#141414",
-      "blue": "#44474A",
-      "brightBlack": "#515151",
-      "brightBlue": "#5A5E62",
-      "brightCyan": "#8A989B",
-      "brightGreen": "#CCD88C",
-      "brightPurple": "#D0DC8E",
-      "brightRed": "#DE7C4C",
-      "brightWhite": "#FFFFD4",
-      "brightYellow": "#E2C47E",
-      "cursorColor": "#FFFFFF",
-      "cyan": "#778385",
-      "foreground": "#FFFFD4",
-      "green": "#AFB97A",
-      "name": "Twilight",
-      "purple": "#B4BE7C",
-      "red": "#C06D44",
-      "selectionBackground": "#FFFFFF",
-      "white": "#FFFFD4",
-      "yellow": "#C2A86C"
-    },
-    {
-      "background": "#000000",
-      "black": "#000000",
-      "blue": "#000080",
-      "brightBlack": "#808080",
-      "brightBlue": "#0000FF",
-      "brightCyan": "#00FFFF",
-      "brightGreen": "#00FF00",
-      "brightPurple": "#FF00FF",
-      "brightRed": "#FF0000",
-      "brightWhite": "#FFFFFF",
-      "brightYellow": "#FFFF00",
-      "cursorColor": "#FFFFFF",
-      "cyan": "#008080",
-      "foreground": "#C0C0C0",
-      "green": "#008000",
-      "name": "Vintage",
-      "purple": "#800080",
-      "red": "#800000",
-      "selectionBackground": "#FFFFFF",
-      "white": "#C0C0C0",
-      "yellow": "#808000"
-    },
-    {
-      "background": "#29283B",
-      "black": "#535178",
-      "blue": "#65AEF7",
-      "brightBlack": "#535178",
-      "brightBlue": "#65AEF7",
-      "brightCyan": "#43C1BE",
-      "brightGreen": "#5ECA89",
-      "brightPurple": "#AA7FF0",
-      "brightRed": "#EF6487",
-      "brightWhite": "#FFFFFF",
-      "brightYellow": "#FDD877",
-      "cursorColor": "#FFFFFF",
-      "cyan": "#43C1BE",
-      "foreground": "#B3B0D6",
-      "green": "#5ECA89",
-      "name": "Whimsy",
-      "purple": "#AA7FF0",
-      "red": "#EF6487",
-      "selectionBackground": "#FFFFFF",
-      "white": "#FFFFFF",
-      "yellow": "#FDD877"
+    "[Twilight Pro]": {
+      "quickInputList.focusForeground": "#FFD384",
+      "focusBorder": "#14141400",
+      "tab.activeBorder": "#363434c7",
+      "editorGroupHeader.tabsBorder": "#141414",
+      "tab.inactiveBackground": "#141414",
+      "tab.activeBackground": "#141414",
+      "tab.border": "#141414",
+      "editorGutter.background": "#141414",
+      //"statusBar.background": "#342d65",
+      //"statusBar.border": "#342d65",
+      "statusBar.foreground": "#9e9b9b",
+      "titleBar.activeBackground": "#141414",
+      "titleBar.border": "#141414",
+      "editorGroupHeader.tabsBackground": "#141414",
+      "panelTitle.activeBorder": "#363434c7",
+      "panel.border": "#141414",
+      "sideBar.border": "#141414",
+      "gitDecoration.untrackedResourceForeground": "#7ca594",
+      "sideBar.background": "#141414",
+      //"editor.lineHighlightBorder": "#363434c7",
+      //"editor.lineHighlightBackground": "#0F111A",
+      //"editorGroup.border": "#5a565651",
+      //"settings.sashBorder": "#0F111A",
+      //"settings.headerBorder": "#0F111A",
+      //"settings.focusedRowBorder": "#151724",
+      //"settings.focusedRowBackground": "#0d0d16",
+      //"settings.headerForeground": "#FFD384",
+      "list.inactiveSelectionBackground": "#141414",
+      "list.activeSelectionBackground": "#1b1b1b6b",
+      "list.focusOutline": "#141414",
+      "list.hoverBackground": "#1b1b1b6b",
+      "list.errorForeground": "#ff9090",
+      "sideBarSectionHeader.background": "#141414",
+      //"editor.foreground": "#d9d9d9",
+      //"editor.background": "#141414",
+      //"settings.modifiedItemIndicator": "#905E96",
+      // "activityBarBadge.background": "#FFD384",
+      "terminal.background": "#141414",
+      "terminal.foreground": "#A7A7A7",
+      "terminalCursor.background": "#A7A7A7",
+      "terminalCursor.foreground": "#A7A7A7",
+      "terminal.ansiBlack": "#1E1E1E",
+      "terminal.ansiBlue": "#7587A6",
+      "terminal.ansiBrightBlack": "#5F5A60",
+      "terminal.ansiBrightBlue": "#7587A6",
+      "terminal.ansiBrightCyan": "#AFC4DB",
+      "terminal.ansiBrightGreen": "#8F9D6A",
+      "terminal.ansiBrightMagenta": "#9B859D",
+      "terminal.ansiBrightRed": "#CF6A4C",
+      "terminal.ansiBrightWhite": "#FFFFFF",
+      "terminal.ansiBrightYellow": "#F9EE98",
+      "terminal.ansiCyan": "#AFC4DB",
+      "terminal.ansiGreen": "#8F9D6A",
+      "terminal.ansiMagenta": "#9B859D",
+      "terminal.ansiRed": "#CF6A4C",
+      "terminal.ansiWhite": "#A7A7A7",
+      "terminal.ansiYellow": "#F9EE98"
     }
-  ],
-  "tabSwitcherMode": "inOrder",
-  "tabWidthMode": "equal",
-  "themes": [],
-  "useAcrylicInTabRow": true
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  // "window.title": "${dirty}${activeEditorShort}${separator}${rootName}",
+  "window.title": "${activeEditorShort}",
+  "terminal.integrated.fontWeightBold": "bold",
+  "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
+  "editor.fontWeight": "normal",
+  "css.lint.hexColorLength": "warning",
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": [
+          "string.quoted.single.js",
+          "string.quoted.single.ts",
+          "string.quoted.single.jsx",
+          "string.quoted.single.tsx"
+        ],
+        "settings": {
+          "foreground": "#FFD384",
+        },
+      },
+      {
+        "scope": [
+          "keyword.control.import.js",
+          "keyword.control.import.ts",
+          "keyword.control.import.jsx",
+          "keyword.control.import.tsx"
+        ],
+        "settings": {
+          "fontStyle": "",
+          "foreground": "#C792EA"
+        },
+      },
+      {
+        "scope": [
+          "keyword.control.export.js",
+          "keyword.control.export.ts",
+          "keyword.control.export.jsx",
+          "keyword.control.export.tsx"
+        ],
+        "settings": {
+          "fontStyle": "",
+          "foreground": "#C792EA"
+        },
+      },
+      {
+        "scope": [
+          "keyword.control.default.js",
+          "keyword.control.default.ts",
+          "keyword.control.default.jsx",
+          "keyword.control.default.tsx"
+        ],
+        "settings": {
+          "fontStyle": "",
+          "foreground": "#82AAFF"
+        },
+      },
+      {
+        "scope": [
+          "keyword.control.switch.js",
+          "keyword.control.switch.ts",
+          "keyword.control.switch.jsx",
+          "keyword.control.switch.tsx"
+        ],
+        "settings": {
+          "fontStyle": "",
+          "foreground": "#82AAFF"
+        },
+      },
+      {
+        "scope": [
+          "keyword.control.from.js",
+          "keyword.control.from.ts",
+          "keyword.control.from.jsx",
+          "keyword.control.from.tsx"
+        ],
+        "settings": {
+          "fontStyle": "",
+          "foreground": "#C792EA"
+        },
+      },
+      {
+        "scope": [
+          "keyword.control.flow.js",
+          "keyword.control.flow.ts",
+          "keyword.control.flow.jsx",
+          "keyword.control.flow.tsx"
+        ],
+        "settings": {
+          "fontStyle": "bold",
+          "foreground": "#82AAFF"
+        },
+      },
+      {
+        "scope": [
+          "keyword.control.conditional.js",
+          "keyword.control.conditional.ts",
+          "keyword.control.conditional.jsx",
+          "keyword.control.conditional.tsx"
+        ],
+        "settings": {
+          "foreground": "#C792EA",
+          "fontStyle": ""
+        },
+      },
+      {
+        "scope": [
+          "keyword.control.loop.js",
+          "keyword.control.loop.ts",
+          "keyword.control.loop.jsx",
+          "keyword.control.loop.tsx"
+        ],
+        "settings": {
+          "foreground": "#C792EA",
+          "fontStyle": ""
+        },
+      },
+      {
+        "scope": [
+          "keyword.operator.new.js",
+          "keyword.operator.new.ts",
+          "keyword.control.new.jsx",
+          "keyword.control.new.tsx"
+        ],
+        "settings": {
+          //"fontStyle": "bold"
+        },
+      },
+      {
+        "scope": [
+          "keyword.control.trycatch.js",
+          "keyword.control.trycatch.ts",
+          "keyword.control.trycatch.jsx",
+          "keyword.control.trycatch.tsx"
+        ],
+        "settings": {
+          "fontStyle": "",
+          "foreground": "#C792EA"
+        },
+      },
+      {
+        "scope": [
+          "constant.numeric.decimal.ts",
+          "constant.numeric.decimal.js"
+        ],
+        "settings": {
+          //"fontStyle": "bold"
+        },
+      },
+    ],
+  },
+  "workbench.startupEditor": "none",
+  "editor.renderLineHighlight": "gutter",
+  "[prisma]": {
+    "editor.formatOnSave": true
+  },
+  "tailwindCSS.includeLanguages": {
+    "html": "html",
+    "javascript": "javascript",
+    "css": "css"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.fontSize": 14,
+  "todomd.webview.showRecurringUpcoming": false,
+  "todomd.webview.completedStrikeThrough": true,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "prettier.arrowParens": "avoid",
+  "prettier.jsxSingleQuote": true,
+  "prettier.semi": false,
+  "prettier.trailingComma": "none",
+  "prettier.singleQuote": true,
+  "prettier.printWidth": 80,
+  "editor.formatOnSave": true,
+  "hediet.vscode-drawio.resizeImages": null,
+  "[latex]": {
+    "editor.defaultFormatter": "nickfode.latex-formatter"
+  },
+  "workbench.colorTheme": "Twilight Pro",
+  "window.zoomLevel": 1,
+  "editor.stickyScroll.enabled": false,
+  "prisma.showPrismaDataPlatformNotification": false,
+  "workbench.editor.showTabs": "multiple",
+  "window.menuBarVisibility": "compact",
+  "workbench.layoutControl.enabled": false,
+  "workbench.editor.editorActionsLocation": "hidden",
+  "workbench.statusBar.visible": true,
+  "workbench.activityBar.location": "top",
+  "window.commandCenter": false,
+  "json.schemas": [],
+  "glassit.alpha": 215,
 }
