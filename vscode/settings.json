@@ -15,7 +15,7 @@
   "editor.bracketPairColorization.enabled": true,
   "editor.guides.bracketPairs": "active",
   "[javascript]": {
-    "editor.defaultFormatter": "vscode.typescript-language-features"
+    "editor.defaultFormatter": "vscode.typescript-language-features",
   },
   "javascript.updateImportsOnFileMove.enabled": "always",
   "editor.tabSize": 2,
@@ -62,7 +62,7 @@
       "editor.foreground": "#d9d9d9",
       //"editor.background": "#0d0d16",
       "settings.modifiedItemIndicator": "#905E96",
-      "activityBarBadge.background": "#FFD384"
+      "activityBarBadge.background": "#FFD384",
     },
     "[Twilight Pro]": {
       "quickInputList.focusForeground": "#FFD384",
@@ -93,7 +93,7 @@
       //"settings.focusedRowBackground": "#0d0d16",
       //"settings.headerForeground": "#FFD384",
       "list.inactiveSelectionBackground": "#141414",
-      "list.activeSelectionBackground": "#141414",
+      "list.activeSelectionBackground": "#1b1b1b6b",
       "list.focusOutline": "#141414",
       "list.hoverBackground": "#1b1b1b6b",
       "list.errorForeground": "#ff9090",
@@ -143,8 +143,8 @@
           "string.quoted.single.tsx"
         ],
         "settings": {
-          "foreground": "#FFD384"
-        }
+          "foreground": "#FFD384",
+        },
       },
       {
         "scope": [
@@ -156,7 +156,7 @@
         "settings": {
           "fontStyle": "",
           "foreground": "#C792EA"
-        }
+        },
       },
       {
         "scope": [
@@ -168,7 +168,7 @@
         "settings": {
           "fontStyle": "",
           "foreground": "#C792EA"
-        }
+        },
       },
       {
         "scope": [
@@ -180,7 +180,7 @@
         "settings": {
           "fontStyle": "",
           "foreground": "#82AAFF"
-        }
+        },
       },
       {
         "scope": [
@@ -192,7 +192,7 @@
         "settings": {
           "fontStyle": "",
           "foreground": "#82AAFF"
-        }
+        },
       },
       {
         "scope": [
@@ -204,7 +204,7 @@
         "settings": {
           "fontStyle": "",
           "foreground": "#C792EA"
-        }
+        },
       },
       {
         "scope": [
@@ -216,7 +216,7 @@
         "settings": {
           "fontStyle": "bold",
           "foreground": "#82AAFF"
-        }
+        },
       },
       {
         "scope": [
@@ -228,7 +228,7 @@
         "settings": {
           "foreground": "#C792EA",
           "fontStyle": ""
-        }
+        },
       },
       {
         "scope": [
@@ -240,7 +240,7 @@
         "settings": {
           "foreground": "#C792EA",
           "fontStyle": ""
-        }
+        },
       },
       {
         "scope": [
@@ -251,7 +251,7 @@
         ],
         "settings": {
           //"fontStyle": "bold"
-        }
+        },
       },
       {
         "scope": [
@@ -263,7 +263,7 @@
         "settings": {
           "fontStyle": "",
           "foreground": "#C792EA"
-        }
+        },
       },
       {
         "scope": [
@@ -272,9 +272,9 @@
         ],
         "settings": {
           //"fontStyle": "bold"
-        }
-      }
-    ]
+        },
+      },
+    ],
   },
   "workbench.startupEditor": "none",
   "editor.renderLineHighlight": "gutter",
@@ -316,5 +316,51 @@
   "workbench.editor.editorActionsLocation": "hidden",
   "workbench.statusBar.visible": true,
   "workbench.activityBar.location": "top",
-  "window.commandCenter": false
+  "window.commandCenter": false,
+  "json.schemas": [],
+  "glassit.alpha": 235,
+  "redhat.telemetry.enabled": false,
+  "cmake.pinnedCommands": [
+    "workbench.action.tasks.configureTaskRunner",
+    "workbench.action.tasks.runTask"
+  ],
+  "workbench.editorAssociations": {
+    "*.svg": "default"
+  },
+  "explorer.fileNesting.patterns": {
+    "*.ts": "${capture}.js",
+    "*.js": "${capture}.js.map, ${capture}.min.js, ${capture}.d.ts",
+    "*.jsx": "${capture}.js",
+    "*.tsx": "${capture}.ts",
+    "tsconfig.json": "tsconfig.*.json",
+    "package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml, bun.lockb, bun.lock",
+    "*.sqlite": "${capture}.${extname}-*",
+    "*.db": "${capture}.${extname}-*",
+    "*.sqlite3": "${capture}.${extname}-*",
+    "*.db3": "${capture}.${extname}-*",
+    "*.sdb": "${capture}.${extname}-*",
+    "*.s3db": "${capture}.${extname}-*"
+  },
+  "background.enabled": true,
+  "background.fullscreen": {
+    "useFront": false,
+    "style": {
+      "background-position": "100% 100%",
+      "background-size": "auto",
+      "opacity": 0.1
+    },
+    "styles": [
+      {},
+      {},
+      {}
+    ],
+    // Local images can be dragged into the browser to quickly get the file protocol address from the address bar
+    "images": [
+      "file:///C:/Users/ASUS/Downloads/1bbe7b0534be7d08f5bb15d7f4ec01f5.jpg"
+    ],
+    "interval": 0,
+    "random": false
+  },
+  // "sqltools.useNodeRuntime": "C:/Program Files/nodejs/node.exe",
+  "chat.commandCenter.enabled": false
 }
